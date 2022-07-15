@@ -45,7 +45,7 @@ async def f(tokenId):
 
 @app.get('/image')
 async def f():
-    return FileResponse('./assets/xpass.gif', response_class='xpass.gif')
+    return FileResponse('./assets/xpass.gif')
 
 @app.get('/video')
 async def f():
