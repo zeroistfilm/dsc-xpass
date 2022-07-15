@@ -11,6 +11,7 @@ origins = [
     'https://dogesound.club/',
     'http://test.dogesound.club/',
     'https://v2.dogesound.club/',
+    'https://egsa.io'
 ]
 
 app.add_middleware(
