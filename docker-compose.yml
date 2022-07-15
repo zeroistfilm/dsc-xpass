@@ -1,0 +1,9 @@
+api:
+  build: .
+  container_name: "xpass"
+  ports:
+    - "8000:8000"
+  volumes:
+    - './:/home/xapss'
+  working_dir: /home/pass-analytics-api
+  command: uvicorn main:app --host 0.0.0.0
