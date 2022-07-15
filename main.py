@@ -6,7 +6,7 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
 
 origins = [
-    'https: // klipwallet.com',
+    'https://klipwallet.com',
     'https://stg.klipwallet.com'
 ]
 
