@@ -2,7 +2,7 @@ api:
   build: .
   container_name: "xpass"
   ports:
-    - "80:80"
+    - "8000:8000"
   volumes:
     - './:/home/xpass'
   working_dir: /home/xpass
