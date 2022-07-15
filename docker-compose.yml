@@ -2,8 +2,8 @@ api:
   build: .
   container_name: "xpass"
   ports:
-    - "8000:8000"
+    - "80:80"
   volumes:
     - './:/home/xpass'
   working_dir: /home/xpass
-  command: uvicorn main:app --host 0.0.0.0
+  command: uvicorn main:app --host 0.0.0.0 --port 80
