@@ -22,7 +22,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app = FastAPI()
+
 
 @app.get('/json/{tokenId}.json')
 async def f(tokenId):
