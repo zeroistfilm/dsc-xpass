@@ -26,8 +26,8 @@ async def f(tokenId):
         "tokenId": tokenId,
         "name": f'X PASS #{tokenId}',
         "description": "Welcome Aboard, URBAN BREAK's X PASS NFT Members!   \n\nURBAN BREAK’s first X PASS NFT membership service will present a whole new experience the members have never encountered before.",
-        "image": "http://34.64.193.146/image",
-        "animation_url": "http://34.64.193.146/video",
+        "image": "https://unpretty.club/image",
+        "animation_url": "https://unpretty.club/video",
         "attributes": [
             {
                 "trait_type": "Tier",
