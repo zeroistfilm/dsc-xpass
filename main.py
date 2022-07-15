@@ -8,6 +8,9 @@ app = FastAPI()
 origins = [
     'https://klipwallet.com',
     'https://stg.klipwallet.com'
+    'https://dogesound.club/',
+    'http://test.dogesound.club/',
+    'https://v2.dogesound.club/',
 ]
 
 app.add_middleware(
