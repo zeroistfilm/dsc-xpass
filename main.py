@@ -1,14 +1,24 @@
-from typing import Optional
-
 from fastapi import FastAPI
 from fastapi.responses import FileResponse, JSONResponse
-import requests
+
+from fastapi.middleware.cors import CORSMiddleware
+
 app = FastAPI()
-from pydantic import BaseModel
 
+origins = [
+    'https: // klipwallet.com',
+    'https://stg.klipwallet.com'
+]
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
-
+app = FastAPI()
 
 @app.get('/json/{tokenId}.json')
 async def f(tokenId):
