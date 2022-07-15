@@ -6,4 +6,4 @@ api:
   volumes:
     - './:/home/xpass'
   working_dir: /home/xpass
-  command: uvicorn main:app --host 0.0.0.0
+  command: uvicorn main:app
